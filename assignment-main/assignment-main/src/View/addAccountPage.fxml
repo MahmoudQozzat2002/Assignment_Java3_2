@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.scene.Group?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -10,14 +15,14 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="600.0" style="-fx-background-color: #3bgdff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addAccountController">
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="600.0" style="-fx-background-color: #3bgdff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.addAccountController">
    <children>
-      <Label layoutX="165.0" layoutY="36.0" prefHeight="46.0" prefWidth="293.0" style="-fx-font-size: 33px; -fx-font-weight: bold;" text="Add New Account " textFill="#eb4242">
+      <Label layoutX="165.0" layoutY="36.0" prefHeight="46.0" prefWidth="293.0" style="-fx-font-size: 33px; -fx-font-weight: bold;" text="Add New Account " textFill="#3b32ee">
          <font>
             <Font size="15.0" />
          </font></Label>
-      <Button fx:id="btnAdd" layoutX="148.0" layoutY="469.0" mnemonicParsing="false" onAction="#addAccountMethod" prefHeight="55.0" prefWidth="118.0" style="-fx-font-size: 20px; -fx-background-color: #00FF00; -fx-font-weight: bold;" styleClass="ok" text="Add" textFill="#3c3838" />
-      <Button fx:id="btnCancel" layoutX="318.0" layoutY="470.0" mnemonicParsing="false" onAction="#cancelMethod" prefHeight="55.0" prefWidth="106.0" style="-fx-font-size: 22px; -fx-background-color: f21111; -fx-font-weight: bold;" styleClass="cancel" text="cancel" textFill="#252323" />
+      <Button fx:id="btnAdd" layoutX="148.0" layoutY="469.0" mnemonicParsing="false" onAction="#addAccountMethod" prefHeight="55.0" prefWidth="118.0" style="-fx-font-size: 20px; -fx-background-color: #078855; -fx-font-weight: bold;" styleClass="ok" text="Add" textFill="WHITE" />
+      <Button fx:id="btnCancel" layoutX="318.0" layoutY="470.0" mnemonicParsing="false" onAction="#cancelMethod" prefHeight="55.0" prefWidth="106.0" style="-fx-font-size: 22px; -fx-background-color: #ff5522; -fx-font-weight: bold;" styleClass="cancel" text="cancel" textFill="WHITE" />
       <Group layoutX="472.0" layoutY="209.0" />
       <GridPane layoutX="21.0" layoutY="104.0" prefHeight="318.0" prefWidth="398.0" style="-fx-font-weight: bold; fx-font-size: 20;">
         <columnConstraints>
